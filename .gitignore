@@ -1,0 +1,35 @@
+# Dependencies, temporary files and local tooling
+.cache/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+Harmonia/vendor/
+
+# Credentials and account-specific configuration; only examples are public
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Harmonia/config/onebot*.json
+Harmonia/config/PERSONA.md
+Harmonia/config/PERSONA - *.md
+Harmonia/config/示例对话.md
+
+# Actual memories, research notes, conversations and delivery state
+Harmonia/runtime/
+Harmonia/memory/**
+!Harmonia/memory/.gitignore
+Harmonia/research/**
+!Harmonia/research/.gitignore
+chatlog/**
+!chatlog/.gitignore
+
+# Collected/generated media and private drafts
+Harmonia/assets/stickers/*
+!Harmonia/assets/stickers/README.md
+Harmonia/artifacts/
+Harmonia/result.md
+旧bot人设文档/
+待办.md

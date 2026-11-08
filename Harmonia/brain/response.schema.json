@@ -1,0 +1,23 @@
+{
+  "type": "object", "additionalProperties": false,
+  "required": ["reply", "bubbles", "sticker", "images", "files", "facts", "todos", "slang", "impressions", "learnStickers", "memoryEdits", "sources"],
+  "properties": {
+    "tsundereUpdate": { "type": "object", "properties": { "k": { "type": "number" }, "delta": { "type": "number" } }, "description": "主人私聊连续对话的傲娇倾向更新；要求模型同时返回非零k及即时修正量delta，无即时修正写0；程序逐项使用合法值，缺失或非法项保留旧值。逐输入received:[{id,delta}]及逐输出sent:[delta]的增减不重复计入顶层delta，独立于6条情绪评估，不发送到聊天" },
+    "aliveUpdate": { "type": "object", "description": "内部情绪状态变更；主人私聊每轮必须输出，无变更用{}，mood变更必须含moodUnit:percent；不发送到聊天" },
+    "reply": { "type": "boolean" },
+    "bubbles": { "type": "array", "items": { "type": "string" } },
+    "sticker": { "type": "string" },
+    "images": { "type": "array", "maxItems": 10, "items": { "type": "string" } },
+    "files": { "type": "array", "maxItems": 10, "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["title", "url"],
+      "properties": { "title": { "type": "string" }, "url": { "type": "string" } } } },
+    "facts": { "type": "array", "items": { "type": "string" } },
+    "todos": { "type": "array", "items": { "type": "string" } },
+    "slang": { "type": "array", "items": { "type": "string" } },
+    "impressions": { "type": "array", "items": { "type": "string" } },
+    "memoryEdits": { "type": "array", "items": { "type": "object", "additionalProperties": false,
+      "required": ["id", "text"], "properties": { "id": { "type": "string" }, "text": { "type": "string" } } } },
+    "learnStickers": { "type": "array", "items": { "type": "object", "additionalProperties": false,
+      "required": ["image", "caption"], "properties": { "image": { "type": "integer", "minimum": 1 }, "caption": { "type": "string" } } } }
+  }
+}

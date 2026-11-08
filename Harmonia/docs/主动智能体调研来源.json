@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-31 Asia/Shanghai",
+  "method": "Read-only repository/README/source review; no plugin install or runtime testing",
+  "npmVersions": {
+    "dsh-bili-scroll": "2.3.0",
+    "@deepseek-ai/dsh": "0.2.1-rc.5",
+    "@kanadego/dsh-heartbeat": "2.0.1",
+    "dsh-bili-watch": "0.3.9"
+  },
+  "sources": [
+    {
+      "name": "dsh-heartbeat",
+      "url": "https://github.com/Kanadego/dsh-heartbeat.git",
+      "commit": "329d73ff60268a94406693e32eac88fb1bbcba23",
+      "commitDate": "2026-10-26T08:54:48Z",
+      "packageVersion": "2.0.1"
+    },
+    {
+      "name": "dsh-bili-whale",
+      "url": "https://github.com/Alterssss/dsh-bili-whale.git",
+      "commit": "8b0009f8ce2ebdc421afcb2e727b19ac18912ec6",
+      "commitDate": "2026-10-25T18:14:41+08:00",
+      "packageVersion": "0.4.6"
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "url": "https://github.com/c1overzz/dsh-bili-scroll.git",
+      "commit": "2c7b3f14f525360f8657b102ec453fd8f02baf3a",
+      "commitDate": "2026-10-28T13:52:29+08:00",
+      "packageVersion": "2.3.1"
+    },
+    {
+      "name": "dsh-bili-watch",
+      "url": "https://github.com/Sacredbluedragon/dsh-bili-watch.git",
+      "commit": "c7d1f97784d1c03702979e23509b7712baf86b86",
+      "commitDate": "2026-10-31T00:58:51+08:00",
+      "packageVersion": "0.3.9"
+    },
+    {
+      "name": "dsh-bilibili",
+      "url": "https://github.com/moxingovo/dsh-bilibili.git",
+      "commit": "42cd1c9e7d975fc46cf62bd86024a134c37501d7",
+      "commitDate": "2026-09-30T12:08:21+08:00",
+      "packageVersion": "0.2.4"
+    },
+    {
+      "name": "dsh-openbiliclaw",
+      "url": "https://github.com/whiteguo233/dsh-openbiliclaw.git",
+      "commit": "894020bd8806f63dce87cf9548fce51dbe4923bf",
+      "commitDate": "2026-10-26T18:13:10+08:00",
+      "packageVersion": "0.6.3"
+    },
+    {
+      "name": "OpenBiliClaw",
+      "url": "https://github.com/whiteguo233/OpenBiliClaw.git",
+      "commit": "f4af7744995fe053df6cb771738a88d58c419b4a",
+      "commitDate": "2026-10-30T23:47:42+08:00",
+      "packageVersion": null
+    },
+    {
+      "name": "dsh-automation",
+      "url": "https://github.com/MichengAI/dsh-automation.git",
+      "commit": "70870e1f426f72f6efcfb0881c65dce320f39da7",
+      "commitDate": "2026-10-29T07:20:31+08:00",
+      "packageVersion": "1.0.13"
+    },
+    {
+      "name": "dsh-sentinel",
+      "url": "https://github.com/fuhefei/dsh-sentinel.git",
+      "commit": "36bd74c12da6b85fc23b1d5f6dcde908208393f3",
+      "commitDate": "2026-10-29T12:07:52+08:00",
+      "packageVersion": "0.13.2"
+    },
+    {
+      "name": "deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness.git",
+      "commit": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "commitDate": "2026-10-30T00:13:15+08:00",
+      "packageVersion": "0.2.2-alpha.2"
+    }
+  ]
+}
